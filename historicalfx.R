@@ -12,7 +12,7 @@ length(salary_1)
 #Loop of Models
 salary <- list()
 for (j in 1:length(salary_1)){
-  cur2<-cur$one_EUR_equivalent_to_x_TRY*salary_1[j]
+  cur2<-cur$one_EUR_equivalent_to_x_AUD*salary_1[j]
   salary[[j]] <- cur2
 }
 
